@@ -11,6 +11,7 @@
 @colorLink: #222;
 @colorLinkHover: #666;
 @bgImageIntro: url(../img/intro.png);
+@bgImageDev: url(../img/rasp.png);
 
 /*Style Structure*/
 html {
@@ -91,12 +92,17 @@ article {
 }
 
 #things {
+    height:50%;
     background:blue;
 }
 
 #development {
-
-    background:green;
+    height: 80%;
+    background: @bgImageDev no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #photography {
