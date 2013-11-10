@@ -50,6 +50,10 @@ article .link:hover {
   /*padding: 0;*/
   border-bottom: 0;
   background: url(../img/intro.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #intro h1 {
   margin-top: 20px;
