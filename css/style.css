@@ -42,16 +42,31 @@ article a:hover,
 article .link:hover {
   color: #666666;
 }
-article #intro {
-  height: 70%;
+#intro {
+  height: 100%;
   padding: 0;
   border-bottom: 0;
   background: green;
 }
-article #intro #logo {
+#intro #logo {
   width: 100%;
   height: 100px;
   background: url(../img/logo_black.png) center 40% no-repeat;
   background-size: contain;
   margin: 0 auto;
+}
+#things {
+  background: blue;
+}
+#development {
+  background: green;
+}
+#photography {
+  background: blue;
+}
+#contacts {
+  background: green;
+}
+footer {
+  background: blue;
 }
