@@ -1,9 +1,9 @@
 ﻿/*Main Stylesheet*/
 
-.logo {
+#logo {
     width: 100%;
-    height: 60%;
-    background: url(img/small_marcio.png) center 40% no-repeat;
+    min-height: 200px;
+    background: url(../img/small_marcio.png) center 40% no-repeat;
     background-size: contain;
     margin: 0 auto;
 }
