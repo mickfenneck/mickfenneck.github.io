@@ -1,0 +1,69 @@
+﻿/*Main Stylesheet*/
+
+/*Imports*/
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+/*Vars*/
+@imglogo: url(../img/logo_black.png);
+@webfont: 'Lato', sans-serif;
+@fontTitle: 'Josefin Slab', serif;
+@colorLink: #222;
+@colorLinkHover: #666;
+
+/*Style Structure*/
+html {
+    height:100%;
+    background: yellow;
+    font-family: @fontTitle;
+
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: red;
+        /*text format*/
+        font-family: @webfont;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        text-rendering: optimizeLegibility;
+    }
+}
+
+article {
+    position: relative;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #33;
+        
+    h1, h2 {
+        margin-top: 80px;
+        margin-bottom: 0px;
+        font-family: @fontTitle;
+        font-size: 60px;
+        line-height: 90px;
+        font-weight: 400;
+    }
+            
+    a, .link {
+                color: @colorLink;
+                text-decoration: underline;
+    }
+
+    a:hover, .link:hover {
+        color: @colorLinkHover;
+    }
+
+    #intro { 
+        height: 70%;
+        padding: 0;
+        border-bottom: 0;
+        background: green;
+
+        #logo {
+            width: 100%;
+            height: 100px;
+            background: @imglogo center 40% no-repeat;
+            background-size: contain;
+            margin: 0 auto;
+        }
+    }
+}
