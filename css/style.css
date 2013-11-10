@@ -1,9 +1,46 @@
-﻿/*Main Stylesheet*/
-
-#logo {
-    width: 100%;
-    min-height: 200px;
-    background: url(../img/small_marcio.png) center 40% no-repeat;
-    background-size: contain;
-    margin: 0 auto;
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+/*Main Stylesheet*/
+/*Imports*/
+/*Vars*/
+/*Style Structure*/
+html {
+  height: 100%;
+  background: yellow;
+  font-family: 'Josefin Slab', serif;
+}
+html body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: red;
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+html body article {
+  position: relative;
+  padding-bottom: 100px;
+  border-bottom: 10px solid #33;
+}
+html body article h1,
+html body article h2 {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 400;
+}
+html body article #intro {
+  height: 70%;
+  padding: 0;
+  border-bottom: 0;
+  background: green;
+}
+html body article #intro #logo {
+  width: 100%;
+  height: 100px;
+  background: url(../img/logo_black.png) center 40% no-repeat;
+  background-size: contain;
+  margin: 0 auto;
 }
