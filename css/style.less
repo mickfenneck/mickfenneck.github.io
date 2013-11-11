@@ -19,14 +19,20 @@ html {
     font-family: @fontTitle;
     padding: 0px;
     margin: 0px;
+}
 
-    body {
-	    height: 100%;
-        /*text format*/
-        font-family: @webfont;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-        text-rendering: optimizeLegibility;
-    }
+body {
+    height: 100%;
+    /*text format*/
+    font-family: @webfont;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-rendering: optimizeLegibility;
+    color:white;
+}
+
+
+h1, h2, h3 {
+    font-family: @fontTitle;
 }
 
 .apice {
@@ -39,8 +45,6 @@ html {
 
 
 #intro {
-    height:100%;
-    width:100%;
     margin:0px;
     background: @bgImageIntro no-repeat center center fixed;
     -webkit-background-size:cover;
@@ -50,32 +54,28 @@ html {
 }
 
 
-#things {
-    background:blue;
+#things, #quotation, #contacts {
+    background:#000000;
     margin:0px;
 }
 
 #development {
     background:green;
     margin:0px;
-}
-
-#quotation {
-    background: blue;
-    margin:0px;
+    background: @bgImageDev no-repeat center center fixed;
 }
 
 #photography {
     background: green;
     margin:0px;
-}
-
-#contacts {
-    background: blue;
-    margin:0px;
+    background: @bgImageIntro no-repeat center center fixed;
 }
 
 #footer {
     background:green;
     margin:0px;
+}
+
+#introtesto, #devtesto, #phototesto {
+        background: rgba(27,27,27,0.7);
 }

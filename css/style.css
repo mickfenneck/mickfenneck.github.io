@@ -10,12 +10,18 @@ html {
   padding: 0px;
   margin: 0px;
 }
-html body {
+body {
   height: 100%;
   /*text format*/
   font-family: 'Lato', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-rendering: optimizeLegibility;
+  color: white;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Slab', serif;
 }
 .apice {
   vertical-align: super;
@@ -24,8 +30,6 @@ html body {
   margin: 0px;
 }
 #intro {
-  height: 100%;
-  width: 100%;
   margin: 0px;
   background: url(../img/intro.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -33,27 +37,28 @@ html body {
   -o-background-size: cover;
   background-size: cover;
 }
-#things {
-  background: blue;
+#things,
+#quotation,
+#contacts {
+  background: #000000;
   margin: 0px;
 }
 #development {
   background: green;
   margin: 0px;
-}
-#quotation {
-  background: blue;
-  margin: 0px;
+  background: url(../img/rasp.png) no-repeat center center fixed;
 }
 #photography {
   background: green;
   margin: 0px;
-}
-#contacts {
-  background: blue;
-  margin: 0px;
+  background: url(../img/intro.png) no-repeat center center fixed;
 }
 #footer {
   background: green;
   margin: 0px;
+}
+#introtesto,
+#devtesto,
+#phototesto {
+  background: rgba(27, 27, 27, 0.7);
 }
