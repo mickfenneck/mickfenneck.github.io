@@ -7,92 +7,52 @@
 html {
   min-height: 100%;
   font-family: 'Josefin Slab', serif;
+  padding: 0px;
+  margin: 0px;
 }
 html body {
   position: relative;
   min-height: 100%;
-  margin: 0;
-  padding: 0;
   /*text format*/
   font-family: 'Lato', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-rendering: optimizeLegibility;
 }
-article {
-  position: relative;
-  padding-bottom: 100px;
-  /*border-bottom: 10px solid #33;*/
-}
-article h1,
-article h2 {
-  /*margin-top: 80px;
-        margin-bottom: 0px;*/
-  font-family: 'Josefin Slab', serif;
-}
-article a,
-article .link {
-  color: #222222;
-  text-decoration: underline;
-}
-article a:hover,
-article .link:hover {
-  color: #666666;
-}
 .apice {
   vertical-align: super;
 }
 #intro {
-  height: 100%;
-  /*padding: 0;*/
-  border-bottom: 0;
-  background: url(../img/intro.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#intro h1 {
-  font-size: 150px;
-  background: rgba(31, 31, 31, 0.7);
-  line-height: 30%;
-  color: #cccccc;
-}
-#intro h1 .apice {
-  font-size: 50px;
-}
-#intro #logo {
-  width: 100%;
-  min-height: 450px;
-  /*background: @imglogo center 40% no-repeat;
-        background-size: contain;
-        margin: 0 auto;*/
+  background: green;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #things {
-  height: 50%;
   background: blue;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #development {
-  height: 75%;
-  background: url(../img/rasp.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: green;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#quotation {
+  background: blue;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #photography {
-  height: 75%;
-  background: url(../img/intro.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: green;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #contacts {
   background: blue;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-#quotation {
-  background: greeen;
-}
-footer {
+#footer {
   background: green;
+  margin-left: 0px;
+  margin-right: 0px;
 }
