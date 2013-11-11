@@ -27,9 +27,6 @@ article h2 {
   margin-top: 80px;
   margin-bottom: 0px;
   font-family: 'Josefin Slab', serif;
-  font-size: 60px;
-  line-height: 90px;
-  font-weight: 400;
 }
 article a,
 article .link {
@@ -92,11 +89,11 @@ article .link:hover {
   background-size: cover;
 }
 #contacts {
-  background:blue;
+  background: blue;
 }
 #quotation {
-  background:green;
+  background: greeen;
 }
 footer {
-  background:green;
+  background: green;
 }
