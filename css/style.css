@@ -5,11 +5,12 @@
 /*Vars*/
 /*Style Structure*/
 html {
-  height: 100%;
+  min-height: 100%;
   font-family: 'Josefin Slab', serif;
 }
 html body {
-  height: 100%;
+  position: relative;
+  min-height: 100%;
   margin: 0;
   padding: 0;
   /*text format*/
@@ -20,12 +21,12 @@ html body {
 article {
   position: relative;
   padding-bottom: 100px;
-  border-bottom: 10px solid #33;
+  /*border-bottom: 10px solid #33;*/
 }
 article h1,
 article h2 {
-  margin-top: 80px;
-  margin-bottom: 0px;
+  /*margin-top: 80px;
+        margin-bottom: 0px;*/
   font-family: 'Josefin Slab', serif;
 }
 article a,
@@ -51,9 +52,6 @@ article .link:hover {
   background-size: cover;
 }
 #intro h1 {
-  position: relative;
-  margin-top: 50%;
-  height: 30%;
   font-size: 150px;
   background: rgba(31, 31, 31, 0.7);
   line-height: 30%;
