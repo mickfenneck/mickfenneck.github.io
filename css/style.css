@@ -51,11 +51,12 @@ article .link:hover {
   background-size: cover;
 }
 #intro h1 {
-  margin-top: 20px;
-  height: 300px;
+  position: relative;
+  margin-top: 50%;
+  height: 30%;
   font-size: 150px;
   background: rgba(31, 31, 31, 0.7);
-  line-height: 300px;
+  line-height: 30%;
   color: #cccccc;
 }
 #intro h1 .apice {
