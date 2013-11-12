@@ -30,6 +30,8 @@ h3 {
 }
 .row {
   margin: 0px;
+  padding-top: 49px;
+  padding-bottom: 49px;
 }
 #intro {
   height: 100%;
@@ -40,10 +42,13 @@ h3 {
   -o-background-size: cover;
   background-size: cover;
 }
+article {
+  border-bottom: 10px solid #171717;
+}
 #things,
 #quotation,
 #contacts {
-  background: #000000;
+  background: #272727;
   margin: 0px;
 }
 #development {
@@ -72,4 +77,7 @@ h3 {
 #devtesto,
 #phototesto {
   background: rgba(27, 27, 27, 0.7);
+}
+#titolone {
+  padding: 0px;
 }
