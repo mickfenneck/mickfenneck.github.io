@@ -43,6 +43,7 @@ h3 {
 #things,
 #quotation,
 #contacts {
+  height:30%;
   background: #000000;
   margin: 0px;
 }
