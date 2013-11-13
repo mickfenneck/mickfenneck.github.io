@@ -28,8 +28,38 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!--Scripts-->
+    <!--timer quotation-->
+    <!--<script type="text/javascript">   
+    var i = 1;
+    var quotations = [
+        ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison'],
+        ['quotazione a caso.','persona a caso'],
+        ['q8 blablabla','lacipolla']];
+        
+        
+    var frase = document.getElementById('quotecit'); 
+    var pers = document.getElementById('quotecit'); 
+
+    alert(frase.innerHTML);
+    alert(pers.innerHTML);
+    /*window.setInterval("changeQuote(frase,pers)",4321);
+
+    function changeQuote(frase, pers) {
+        alert(frase);
+        alert(pers);
+        /*
+        document.getElementById('quotecit').innerHTML = quotations[i][0]; 
+        document.getElementById('quotepers').innerHTML = quotations[i][1];
+        if(i<2)
+            i++;
+        else
+            i=0;*/
+    }
+</script>-->
     <!--Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
+
+
     <!--Google Analytics-->
     <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -103,8 +133,8 @@
 <article id="quotation">
     <div class="row text-center">
         <div class="col-md-10 col-md-offset-1">
-            <h2>"Sometimes the winner is simply a dreamer who never gave up"</h2>
-            <h3>[Jim. Morrison]</h3>
+            <h2 id="quotecit">"Sometimes the winner is simply a dreamer who never gave up."</h2>
+            <h3 id="quotepers">[Jim Morrison]</h3>
         </div>
     </div>
 </article>
