@@ -29,33 +29,29 @@
 
     <!--Scripts-->
     <!--timer quotation-->
-    <!--<script type="text/javascript">   
+    <script type="text/javascript">   
     var i = 1;
     var quotations = [
         ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison'],
         ['quotazione a caso.','persona a caso'],
         ['q8 blablabla','lacipolla']];
         
+    window.setInterval("changeQuote()",4573);
+
+    function changeQuote() {
         
-    var frase = document.getElementById('quotecit'); 
-    var pers = document.getElementById('quotecit'); 
-
-    alert(frase.innerHTML);
-    alert(pers.innerHTML);
-    /*window.setInterval("changeQuote(frase,pers)",4321);
-
-    function changeQuote(frase, pers) {
-        alert(frase);
-        alert(pers);
-        /*
+        $('#quotecit').fadeOut(300);
+        $('#quotepers').fadeOut(300);
         document.getElementById('quotecit').innerHTML = quotations[i][0]; 
         document.getElementById('quotepers').innerHTML = quotations[i][1];
+        $('#quotecit').fadeIn(300);
+        $('#quotepers').fadeIn(300);
         if(i<2)
             i++;
         else
-            i=0;*/
+            i=0;
     }
-</script>-->
+</script>
     <!--Bootstrap-->
     <script src="js/bootstrap.min.js"></script>
 
