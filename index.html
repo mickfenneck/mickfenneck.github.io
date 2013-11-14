@@ -40,12 +40,11 @@
 
     function changeQuote() {
         
-        $('#quotecit').fadeOut(300);
-        $('#quotepers').fadeOut(300);
-        document.getElementById('quotecit').innerHTML = quotations[i][0]; 
-        document.getElementById('quotepers').innerHTML = quotations[i][1];
-        $('#quotecit').fadeIn(300);
-        $('#quotepers').fadeIn(300);
+        $('#quotetot').fadeOut(300,function() { 
+            document.getElementById('quotecit').innerHTML = quotations[i][0]; 
+            document.getElementById('quotepers').innerHTML = quotations[i][1];
+        });
+        $('#quotetot').fadeIn(300);
         if(i<2)
             i++;
         else
@@ -128,7 +127,7 @@
 
 <article id="quotation">
     <div class="row text-center">
-        <div class="col-md-10 col-md-offset-1">
+        <div id="quotetot" class="col-md-10 col-md-offset-1">
             <h2 id="quotecit">"Sometimes the winner is simply a dreamer who never gave up."</h2>
             <h3 id="quotepers">[Jim Morrison]</h3>
         </div>
