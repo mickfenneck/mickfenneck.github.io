@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+/*@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
 /*Main Stylesheet*/
 /*Imports*/
 /*Vars*/
@@ -7,7 +8,6 @@
 html {
   min-height: 100%;
   height: 100%;
-  font-family: 'Josefin Slab', serif;
   padding: 0px;
   margin: 0px;
 }
@@ -15,15 +15,19 @@ body {
   min-height: 100%;
   height: 100%;
   /*text format*/
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-rendering: optimizeLegibility;
   color: white;
 }
-h1,
-h2,
-h3 {
-  font-family: 'Josefin Slab', serif;
+h1
+{
+  font-family: 'Quicksand', sans-serif;
+  text-transform:uppercase;
+}
+h2,h3
+{
+  font-family: 'Quicksand', sans-serif;
 }
 .apice {
   vertical-align: super;
@@ -81,3 +85,16 @@ article {
 #titolone {
   padding: 0px;
 }
+
+.navbar {
+    text-transform:uppercase;
+}
+
+#introtesto {
+    margin-top:450px;
+}
+
+#logotitle {
+    font-size: 50px;   
+}
+
