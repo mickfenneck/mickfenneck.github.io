@@ -36,7 +36,7 @@ h3 {
 #intro {
   height: 100%;
   margin: 0px;
-  background: url(../img/bglennon.png) no-repeat center center fixed;
+  background: url(../img/bglennon2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,7 +54,7 @@ article {
 #development {
   margin: 0px;
   height: 70%;
-  background: url(../img/rasp.png) no-repeat center center fixed;
+  background: url(../img/rasp.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -63,7 +63,7 @@ article {
 #photography {
   margin: 0px;
   height: 70%;
-  background: url(../img/bglight.png) no-repeat center center fixed;
+  background: url(../img/bglight.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
