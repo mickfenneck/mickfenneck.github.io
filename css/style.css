@@ -104,6 +104,7 @@ article {
 
 article a {
     font-size: 23px;
+    color: #999;
 }
 article a:hover {
     color: white;
