@@ -101,6 +101,10 @@ article {
 }
 
 article a {
-    font-size: 27px;
+    font-size: 23px;
     color: white;
+}
+
+.email {
+    font-size: 17px;   
 }
