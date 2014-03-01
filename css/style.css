@@ -18,12 +18,13 @@ body {
   font-family: 'Quicksand', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   text-rendering: optimizeLegibility;
-  color: white;
+  color: #999;
 }
 h1
 {
   font-family: 'Quicksand', sans-serif;
   text-transform:uppercase;
+    color: white;
 }
 h2,h3
 {
