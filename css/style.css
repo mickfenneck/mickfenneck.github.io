@@ -29,6 +29,7 @@ h1
 h2,h3
 {
   font-family: 'Quicksand', sans-serif;
+    color: white;
 }
 .apice {
   vertical-align: super;
@@ -103,9 +104,10 @@ article {
 
 article a {
     font-size: 23px;
+}
+article a:hover {
     color: white;
 }
-
 .email {
     font-size: 17px;   
 }
