@@ -120,10 +120,9 @@ article {
 #devtesto,
 #phototesto,
 #blogtesto,
-#aboutmetext,
-#tripstesto,
-#about1,
-#about2 {
+#abouttesto,
+#tripstesto
+ {
   background: rgba(27, 27, 27, 0.7);
 }
 #titolone {
