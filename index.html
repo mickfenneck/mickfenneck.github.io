@@ -28,29 +28,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!--Scripts-->
-    <!--timer quotation-->
-    <script type="text/javascript">   
-    var i = 1;
-    var quotations = [
-        ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison'],
-        ['quotazione a caso.','persona a caso'],
-        ['q8 blablabla','lacipolla']];
-        
-    window.setInterval("changeQuote()",4573);
-
-    function changeQuote() {
-        
-        $('#quotetot').fadeOut(300,function() { 
-            document.getElementById('quotecit').innerHTML = quotations[i][0]; 
-            document.getElementById('quotepers').innerHTML = quotations[i][1];
-        });
-        $('#quotetot').fadeIn(300);
-        if(i<2)
-            i++;
-        else
-            i=0;
-    }
-</script>
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!--Bootstrap-->
@@ -79,22 +56,7 @@
     <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
 </p>
 <![endif]-->
-<article id="intro"> 
-    <div id="titolone" class="row text-center">        
-        <div id="introtesto" class="col-md-12">
-            <h1 id="logotitle">MickFenneck<span class="apice">&copy;</span></h1>
-            <h2>photographer - developer - webdesigner</h2>
-        </div>
-    </div>
-    <!--
-    <div class="arrow">
-        <a>
-            <img src="img/arrow.png" alt="arrow"/>
-        </a>
-    </div>
-    -->
-</article>
-
+    
 <!--menu navbar-->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
@@ -110,10 +72,13 @@
         <!--navbar-->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#things" title="about">about</a></li>
+                <li><a href="#aboutme" title="about me">about me</a></li>
+                <li><a href="#things" title="things">what i do</a></li>
                 <li><a href="#development" title="development">development</a></li>
-                <li><a href="#quotation" title="quotation">quotation</a></li>
+                <li><a href="#trips" title="trips">trips</a></li>
                 <li><a href="#photography" title="photography">photography</a></li>
+                <li><a href="#blog" title="blog">blog</a></li>
+                <li><a href="#workedwith" title="workedwith">worked with</a></li>
                 <li><a href="#contacts" title="contacts">social|contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -122,16 +87,45 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav>    
+    
+<article id="intro"> 
+    <!--<div id="titolone" class="row text-center">        
+        <div id="introtesto" class="col-md-12">
+            <h1 id="logotitle">MickFenneck<span class="apice">&copy;</span></h1>
+            <h2>photographer - developer - webdesigner</h2>
+        </div>
+    </div>
+    -->
+    <!--
+    <div class="arrow">
+        <a>
+            <img src="img/arrow.png" alt="arrow"/>
+        </a>
+    </div>
+    -->
+</article>   
 
+<article id="aboutme">
+    <div class="row text-center">
+        <div id="aboutmetext" class="col-md-12">
+            <h1>About me</h1>
+            <div id="aboutinfo">
+                <div id="about1" class="col-md-4 col-md-offset-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque leo nec enim pharetra dapibus. Curabitur et nulla quis tellus accumsan commodo. Sed vulputate magna viverra justo auctor lacinia. Ut et arcu tincidunt, facilisis eros ut, semper massa. Nulla posuere pulvinar nulla sed sodales. Aliquam luctus felis ipsum, vel volutpat velit ullamcorper euismod.</p>
+                </div>
+                <div id="about2" class="col-md-4">
+                    <p>Aliquam justo orci, imperdiet eget lorem at, mattis sagittis ante. Phasellus mi tortor, vehicula vitae accumsan a, venenatis et justo. Etiam aliquam felis sed ipsum mollis, et euismod turpis rutrum. Phasellus semper arcu id bibendum luctus. Ut massa turpis, auctor ac quam a, fermentum dapibus est. Pellentesque arcu dui, scelerisque id nisi et, scelerisque auctor dolor.</p>
+                </div>
+            </div>          
+        </div>
+    </div>
+</article>  
     
-    
-    
-
 <article id="things">
     <div class="row text-center">
         <div class="col-md-12">
-            <h1>Things I Love</h1>
+            <h1>what i do</h1>
          <p>Art Design, Front-End, Web-Technologies, UNIX/LINUX, Open-Source, Music, Coffee, Cats</p>
     </div>
 </article>
@@ -145,11 +139,11 @@
     </div>
 </article>
 
-<article id="quotation">
+<article id="trips">
     <div class="row text-center">
-        <div id="quotetot" class="col-md-10 col-md-offset-1">
-            <h2 id="quotecit">"Sometimes the winner is simply a dreamer who never gave up."</h2>
-            <h3 id="quotepers">[Jim Morrison]</h3>
+        <div id="tripstesto" class="col-md-12">
+            <h1>Trips &amp; Reportage</h1>
+            <a class="link" href="#">Palestine-Israel</a>      
         </div>
     </div>
 </article>
@@ -159,6 +153,34 @@
         <div id="phototesto" class="col-md-12">
             <h1>Photography</h1>
             <a class="link" href="http://www.flickr.com/photos/mickfenneck/">-Flickr-</a>
+        </div>
+    </div>
+</article>
+    
+<article id="blog">
+    <<div class="row text-center">
+        <div id="blogtesto" class="col-md-12">
+            <h1>Blog</h1>
+            <a class="link" href="#">-coming soon-</a>
+            <h2 id="quotecit">"Sometimes the winner is simply a dreamer who never gave up."</h2>
+            <h3 id="quotepers">[Jim Morrison]</h3>
+        </div>
+    </div>
+</article>
+    
+<article id="workedwith">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h1>Worked With</h1>
+        </div>
+        <div class="col-md-4">
+            <a class="link" href="http://www.studiobold.it">BoldDesign</a>
+        </div>
+        <div class="col-md-4">
+            <a class="link" href="#">EsseQuadro</a>
+        </div>
+        <div class="col-md-4">
+            <a class="link" href="http://www.geopartner.it">GeoPartner</a>
         </div>
     </div>
 </article>
@@ -205,5 +227,16 @@
 </footer>
 
 </body>
+<!--set quotation-->
+<script type="text/javascript">   
+    var i = 1;
+    var quotations = [
+        ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison'],
+        ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison'],
+        ['Sometimes the winner is simply a dreamer who never gave up.','Jim Morrison']];
+    var i = Math.floor((Math.random()*3));
+    document.getElementById('quotecit').innerHTML = quotations[i][0]; 
+    document.getElementById('quotepers').innerHTML = quotations[i][1];
+</script>
 </html>
 

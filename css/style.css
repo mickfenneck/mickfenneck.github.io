@@ -39,8 +39,20 @@ h2,h3
   padding-top: 49px;
   padding-bottom: 49px;
 }
+
 #intro {
   height: 100%;
+  margin: 0px;
+  background: url(../img/logo_draft.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#aboutme {
+  height: 70%;
   margin: 0px;
   background: url(../img/bglennon2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -53,7 +65,8 @@ article {
 }
 #things,
 #quotation,
-#contacts {
+#contacts,
+#workedwith{
   background: #272727;
   margin: 0px;
 }
@@ -61,6 +74,15 @@ article {
   margin: 0px;
   height: 70%;
   background: url(../img/rasp.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#trips {
+  margin: 0px;
+  height: 70%;
+  background: url(../img/trips.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,6 +97,15 @@ article {
   -o-background-size: cover;
   background-size: cover;
 }
+#blog {
+  margin: 0px;
+  height: 70%;
+  background: url(../img/blog.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #footer {
   background: green;
   margin: 0px;
@@ -82,11 +113,21 @@ article {
 }
 #introtesto,
 #devtesto,
-#phototesto {
+#phototesto,
+#blogtesto,
+#aboutmetext,
+#tripstesto,
+#about1,
+#about2 {
   background: rgba(27, 27, 27, 0.7);
 }
 #titolone {
   padding: 0px;
+}
+
+#about1,
+#about2 {
+  color: white;
 }
 
 .navbar {
