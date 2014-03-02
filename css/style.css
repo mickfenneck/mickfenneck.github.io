@@ -60,12 +60,19 @@ h2,h3
 article {
   border-bottom: 10px solid #171717;
 }
-#things,
-#quotation,
 #contacts,
 #workedwith{
   background: #272727;
   margin: 0px;
+}
+#things {
+  margin: 0px;
+  height: 70%;
+  background: url(../img/things.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #development {
   margin: 0px;
@@ -109,6 +116,7 @@ article {
   color: white;
 }
 #introtesto,
+#thingstesto,
 #devtesto,
 #phototesto,
 #blogtesto,
