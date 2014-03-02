@@ -60,11 +60,7 @@ h2,h3
 article {
   border-bottom: 10px solid #171717;
 }
-#contacts,
-#workedwith{
-  background: #272727;
-  margin: 0px;
-}
+
 #things {
   margin: 0px;
   height: 70%;
@@ -110,8 +106,27 @@ article {
   -o-background-size: cover;
   background-size: cover;
 }
+#workedwith  {
+  margin: 0px;
+  height: 70%;
+  background: url(../img/disi.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}   
+#contact {
+  margin: 0px;
+  height: 70%;
+  background: url(../img/contact.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #footer {
-  background: green;
+  background: #272727;
   margin: 0px;
   color: white;
 }
@@ -121,7 +136,9 @@ article {
 #phototesto,
 #blogtesto,
 #abouttesto,
-#tripstesto
+#tripstesto,
+#workedtesto,
+#contacttesto
  {
   background: rgba(27, 27, 27, 0.7);
 }
