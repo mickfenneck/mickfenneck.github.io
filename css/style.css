@@ -26,6 +26,7 @@ h1
 h2,h3
 {
     font-family: 'Quicksand', sans-serif;
+    text-transform:uppercase;
     color: white;
 }
 .apice {
@@ -178,13 +179,13 @@ article a:hover {
         font-size: 18px;
     }
     #logotitle {
-        font-size: 71px;   
+        font-size: 73px;   
     }
     #logotitle .apice{
         font-size: 40px;   
     }
     #intro h2 {
-        font-size: 27px;   
+        font-size: 24px;   
     }
     article a {
         font-size: 23px;
@@ -211,7 +212,7 @@ article a:hover {
         font-size: 20px;   
     }
     #intro h2 {
-        font-size: 15px;   
+        font-size: 13px;   
     }
     article a {
         font-size: 15px;
