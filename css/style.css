@@ -19,13 +19,13 @@ body {
 }
 h1
 {
-  font-family: 'Quicksand', sans-serif;
-  text-transform:uppercase;
+    font-family: 'Quicksand', sans-serif;
+    text-transform:uppercase;
     color: white;
 }
 h2,h3
 {
-  font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
 }
 .apice {
@@ -49,7 +49,7 @@ h2,h3
 
 
 #aboutme {
-  height: 70%;
+  height: 80%;
   margin: 0px;
   background: url(../img/bglennon2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -63,7 +63,7 @@ article {
 
 #things {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/things.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -72,7 +72,7 @@ article {
 }
 #development {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/rasp.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,7 +81,7 @@ article {
 }
 #trips {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/trips.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -90,7 +90,7 @@ article {
 }
 #photography {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/bglight.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -99,7 +99,7 @@ article {
 }
 #blog {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/blog.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -108,7 +108,7 @@ article {
 }
 #workedwith  {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/disi.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -117,7 +117,7 @@ article {
 }   
 #contact {
   margin: 0px;
-  height: 70%;
+  height: 80%;
   background: url(../img/contact.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,6 +146,11 @@ article {
 margin-top:30px;
 }
 
+#workcontainer {
+ margin-left:auto;
+    margin-right:auto;
+}
+
 #about1,
 #about2 {
   color: white;
@@ -155,15 +160,6 @@ margin-top:30px;
     text-transform:uppercase;
 }
 
-#logotitle {
-    font-size: 71px;   
-}
-#logotitle .apice{
-    font-size: 40px;   
-}
-#intro h2 {
-    font-size: 27px;   
-}
 
 article a {
     font-size: 23px;
@@ -175,6 +171,38 @@ article a:hover {
 .email {
     font-size: 17px;   
 }
+
+/*media queries for font sizes*/
+@media (min-width: 768px) {
+    h1 {
+        font-size:50px;;
+    }
+    #logotitle {
+        font-size: 71px;   
+    }
+    #logotitle .apice{
+        font-size: 40px;   
+    }
+    #intro h2 {
+        font-size: 27px;   
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size:30px;;
+    }
+    #logotitle {
+        font-size: 40px;   
+    }
+    #logotitle .apice{
+        font-size: 28px;   
+    }
+    #intro h2 {
+        font-size: 20px;   
+    }
+}
+
 
 
 /*change collapse navbar px*/
