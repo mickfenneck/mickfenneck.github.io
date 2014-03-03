@@ -159,23 +159,23 @@ margin-top:30px;
 .navbar {
     text-transform:uppercase;
 }
-
-
 article a {
-    font-size: 23px;
     color: #999;
 }
 article a:hover {
     color: white;
 }
-.email {
-    font-size: 17px;   
-}
 
 /*media queries for font sizes*/
 @media (min-width: 768px) {
     h1 {
-        font-size:50px;;
+        font-size:50px;
+    }
+    h2,h3 {
+        font-size:30px;
+    }
+    p {
+        font-size: 18px;
     }
     #logotitle {
         font-size: 71px;   
@@ -186,11 +186,23 @@ article a:hover {
     #intro h2 {
         font-size: 27px;   
     }
+    article a {
+        font-size: 23px;
+    }
+    .email {
+        font-size: 17px;   
+    }
 }
 
 @media (max-width: 768px) {
     h1 {
-        font-size:30px;;
+        font-size:30px;
+    }
+    h2,h3 {
+        font-size:20px;
+    }
+    p {
+        font-size: 13px;
     }
     #logotitle {
         font-size: 40px;   
@@ -199,6 +211,12 @@ article a:hover {
         font-size: 20px;   
     }
     #intro h2 {
+        font-size: 15px;   
+    }
+    article a {
+        font-size: 15px;
+    }
+    .email {
         font-size: 15px;   
     }
 }
