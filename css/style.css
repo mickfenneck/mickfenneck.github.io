@@ -167,6 +167,19 @@ article a:hover {
     color: white;
 }
 
+@-webkit-keyframes bottom{0%,100% {-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-o-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}50%{-webkit-transform:translate(0,-35px);-moz-transform:translate(0,-35px);-o-transform:translate(0,-35px);-ms-transform:translate(0,-35px);transform:translate(0,-35px)}}
+
+@keyframes bottom {0%,100% {-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-o-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}50%{-webkit-transform:translate(0,-35px);-moz-transform:translate(0,-35px);-o-transform:translate(0,-35px);-ms-transform:translate(0,-35px);transform:translate(0,-35px)}}
+
+.arrow {
+    position:absolute;
+    bottom:30px;
+    text-align:center;
+    width:100%;
+    -webkit-animation:bottom 2s infinite;
+    animation:bottom 2s infinite;
+}
+
 /*media queries for font sizes*/
 @media (min-width: 768px) {
     h1 {
