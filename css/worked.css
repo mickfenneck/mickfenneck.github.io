@@ -172,4 +172,7 @@
 .view-first p {
     display: none;
 }
+.view-first a {
+    display: none;
+}
 }
