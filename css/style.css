@@ -214,6 +214,9 @@ a {
     .email {
         font-size: 17px;   
     }
+    .newpost {
+        font-size: 27px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -240,6 +243,9 @@ a {
     }
     .email {
         font-size: 15px;   
+    }
+    .newpost {
+        font-size: 23px;
     }
 }
 
