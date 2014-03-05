@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
 .view {
    width: 250px;
@@ -168,12 +168,15 @@
 }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 .workimage {
     display: none;
 }    
 .view-first p {
     display: none;
+}
+.view-first h2 {
+    font-size: 22px;   
 }
 .view-first a.info {
     display: none;
