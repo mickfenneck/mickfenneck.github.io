@@ -143,6 +143,7 @@ article {
 #contacttesto
  {
   background: rgba(27, 27, 27, 0.83);
+    padding: 30px;
 }
 #introtesto {
 margin-top:30px;
@@ -223,7 +224,7 @@ a {
     h2,h3 {
         font-size:20px;
     }
-    p, p a {
+    p {
         font-size: 13px;
     }
     #logotitle {
@@ -235,7 +236,7 @@ a {
     #intro h2 {
         font-size: 13px;   
     }
-    article a {
+    article .link {
         font-size: 15px;
     }
     .email {
