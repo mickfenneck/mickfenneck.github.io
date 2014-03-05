@@ -244,7 +244,7 @@ a {
     .email {
         font-size: 15px;   
     }
-    .newpost {
+    article .newpost {
         font-size: 88px;
     }
 }
