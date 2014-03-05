@@ -162,7 +162,10 @@
    -ms-transition-delay: 0.2s;
    transition-delay: 0.2s;
 }
-
+.view-first a.brand {
+    pointer-events: none;
+    cursor: default;
+}
 }
 
 @media (max-width: 1024px) {
@@ -172,7 +175,7 @@
 .view-first p {
     display: none;
 }
-.view-first a {
+.view-first a.info {
     display: none;
 }
 }
