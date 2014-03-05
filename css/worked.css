@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 
 .view {
    width: 250px;
@@ -163,4 +163,10 @@
    transition-delay: 0.2s;
 }
 
+}
+
+@media (max-width: 1024px) {
+.workimage {
+    display: none;
+}    
 }
