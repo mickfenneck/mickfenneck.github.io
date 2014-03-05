@@ -81,7 +81,7 @@ article {
   -o-background-size: cover;
   background-size: cover;
 }
-#trips {
+#webdesign {
   margin: 0px;
   height: 80%;
   background: url(../img/trips.jpg) no-repeat center center fixed;
@@ -93,7 +93,7 @@ article {
 #photography {
   margin: 0px;
   height: 80%;
-  background: url(../img/bglight.jpg) no-repeat center center fixed;
+  background: url(../img/trips.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,7 +138,7 @@ article {
 #phototesto,
 #blogtesto,
 #abouttesto,
-#tripstesto,
+#webtesto,
 #workedtesto,
 #contacttesto
  {
