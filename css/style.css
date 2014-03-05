@@ -196,7 +196,7 @@ a {
     h2,h3 {
         font-size:30px;
     }
-    p, p a {
+    p, a {
         font-size: 18px;
     }
     #logotitle {
@@ -208,7 +208,7 @@ a {
     #intro h2 {
         font-size: 24px;   
     }
-    article a {
+    .link {
         font-size: 23px;
     }
     .email {
