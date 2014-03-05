@@ -166,6 +166,15 @@
     pointer-events: none;
     cursor: default;
 }
+.view-first .workbox {
+    width: 25%;
+float: left;
+
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
 }
 
 @media (max-width: 1024px) {
