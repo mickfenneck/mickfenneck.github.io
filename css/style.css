@@ -215,7 +215,7 @@ a {
         font-size: 17px;   
     }
     .newpost {
-        font-size: 88px;
+        font-size: 27px;
     }
 }
 
@@ -244,8 +244,8 @@ a {
     .email {
         font-size: 15px;   
     }
-    article .newpost {
-        font-size: 88px;
+    .newpost {
+        font-size: 23px;
     }
 }
 
