@@ -252,7 +252,7 @@ a {
 
 
 /*change collapse navbar px*/
-@media (max-width: 1240px) {
+@media (max-width: 1289px) {
     .navbar-header {
         float: none;
     }
