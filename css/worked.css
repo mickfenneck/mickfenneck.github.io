@@ -1,4 +1,4 @@
-@media (min-width: 1072px) {
+@media (min-width: 1200px) {
 
 .view {
    width: 250px;
@@ -168,7 +168,7 @@
 }
 }
 
-@media (max-width: 1072px) {
+@media (max-width: 1200px) {
 .workimage {
     display: none;
 }    
