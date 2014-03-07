@@ -137,6 +137,7 @@ article {
 }
 #footer a:hover{
     color: #999;
+    text-decoration:none;
 }
 
 #introtesto,
@@ -174,6 +175,7 @@ article a {
 }
 article a:hover {
     color: #999;
+    text-decoration:none;
 }
 a {
     -webkit-transition:all all .1s ease-out;
