@@ -132,8 +132,11 @@ article {
   margin: 0px;
   color: white;
 }
-#footer a:hover{
+#footer a{
     color: white;
+}
+#footer a:hover{
+    color: #999;
 }
 
 #introtesto,
