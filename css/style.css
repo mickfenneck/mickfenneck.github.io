@@ -132,6 +132,10 @@ article {
   margin: 0px;
   color: white;
 }
+#footer a:hover{
+    color: white;
+}
+
 #introtesto,
 #thingstesto,
 #devtesto,
