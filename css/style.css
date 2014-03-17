@@ -63,7 +63,7 @@ article {
   border-bottom: 10px solid #171717;
 }
 
-#things {
+#webdesign {
   margin: 0px;
   height: 80%;
   background: url(../img/things.jpg) no-repeat center center fixed;
@@ -81,15 +81,6 @@ article {
   -o-background-size: cover;
   background-size: cover;
 }
-#webdesign {
-  margin: 0px;
-  height: 80%;
-  background: url(../img/trips.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 #photography {
   margin: 0px;
   height: 80%;
@@ -99,7 +90,7 @@ article {
   -o-background-size: cover;
   background-size: cover;
 }
-#blog {
+#things {
   margin: 0px;
   height: 80%;
   background: url(../img/blog.jpg) no-repeat center center fixed;
