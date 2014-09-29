@@ -32,7 +32,7 @@
   content: attr(data-progress-text);
   text-align: center;
   color: #fff;
-  background: #29d;
+  background: #F8F8F8;
   border-radius: 50%;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -49,7 +49,7 @@
 
 .pace .pace-progress:after {
   border-radius: 50%;
-  border: 5px solid #29d;
+  border: 5px solid #F8F8F8;
   content: ' ';
   display: block;
   position: absolute;
@@ -81,7 +81,7 @@
 
 .pace .pace-activity:before {
   border-radius: 50%;
-  border: 5px solid #29d;
+  border: 5px solid #F8F8F8;
   content: ' ';
   display: block;
   position: absolute;
@@ -98,7 +98,7 @@
 
 .pace .pace-activity:after{
   border-radius: 50%;
-  border: 5px solid #29d;
+  border: 5px solid #F8F8F8;
   content: ' ';
   display: block;
   position: absolute;
