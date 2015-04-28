@@ -1,0 +1,86 @@
+@-webkit-keyframes slide {
+  100% {
+    right: 30%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+@keyframes slide {
+  100% {
+    right: 30%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes slide2 {
+  100% {
+    right: 20%;
+  }
+}
+@keyframes slide2 {
+  100% {
+    right: 20%;
+  }
+}
+@-webkit-keyframes slide3 {
+  100% {
+    right: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+}
+@keyframes slide3 {
+  100% {
+    right: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+}
+.an1a {
+  z-index: 4;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
+}
+.an2a {
+  z-index: 5;
+  -webkit-animation-name: slide2;
+          animation-name: slide2;
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+.an3a {
+  z-index: 6;
+  -webkit-animation-name: slide3;
+          animation-name: slide3;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+.an1,
+.an2,
+.an3 {
+  float: right;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  right: -800px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  border-radius: 10px;
+}
+#exp-deck {
+  -webkit-animation: bump;
+          animation: bump;
+  -webkit-animation-duration: .3s;
+          animation-duration: .3s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  border-radius: 10px;
+}

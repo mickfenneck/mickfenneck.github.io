@@ -1,0 +1,55 @@
+@keyframes slide {
+    100% {
+        right: 30%;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes slide2 {
+    100% {
+        right: 20%;
+    }
+}
+
+@keyframes slide3 {
+    100% {
+        right: 10%;
+        transform: rotate(-10deg);
+    }
+}
+
+.an1a {
+    z-index: 4;
+    animation-name: slide;
+    animation-delay: .9s;
+}
+.an2a {
+    z-index: 5;
+    animation-name: slide2;
+    animation-delay: .7s;
+}
+.an3a {
+    z-index: 6;
+    animation-name: slide3;
+    animation-delay: .5s;
+}
+
+.an1, .an2, .an3 {
+    float: right;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    right: -800px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    border-radius: 10px;
+}
+
+#exp-deck {
+    animation: bump;
+    animation-duration: .3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    border-radius: 10px;
+}

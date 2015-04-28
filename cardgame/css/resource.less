@@ -1,0 +1,131 @@
+@keyframes slider {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: rotate(-30deg);
+    left: 15%;
+    opacity: 1;
+  }
+}
+
+@keyframes slide2r {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: rotate(-15deg);
+    left: 20%;
+    opacity: 1;
+  }
+}
+
+@keyframes slide3r {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide4r {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: rotate(15deg);
+    left: 30%;
+    opacity: 1;
+  }
+}
+@keyframes slide5r {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: rotate(30deg);
+    left: 35%;
+    opacity: 1;
+  }
+}
+
+.re1, .re2, .re3, .re4, .re5 {
+  position: absolute;
+  float: left;
+  height: 250px;
+  border-radius: 10px;
+  left: 25%;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.re1a {
+  z-index: 2;
+  animation-name: slider;
+  animation-delay: .5s;
+}
+.re2a {
+  z-index: 3;
+  animation-name: slide2r;
+  animation-delay: .5s;
+}
+
+.re3a {
+  z-index: 4;
+  animation-name: slide3r;
+  animation-delay: .5s;
+}
+
+.re4a {
+  z-index: 3;
+  animation-name: slide4r;
+  animation-delay: .5s;
+}
+.re5a {
+  z-index: 2;
+  animation-name: slide5r;
+  animation-delay: .5s;
+}

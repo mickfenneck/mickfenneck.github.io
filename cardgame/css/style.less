@@ -1,0 +1,273 @@
+//import
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+
+// Variables
+@font-body: Merriweather, serif;
+@size-body: 20px;
+@font-title: Bangers, sans-serif;
+@size-title: 44px;
+@font-logo:  'Bangers', cursive;
+
+
+/*Main Stylesheet*/
+
+/*Style Structure*/
+html {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  /*text format*/
+  font-family: @font-body;
+  font-weight: 400;
+  font-size: @size-body;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  a {
+    color: black;
+  }
+  a:hover{
+    color: #444;
+  }
+}
+
+
+.row {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 200px;
+}
+
+h2 {
+  font-family: @font-title;
+  font-size: @size-title;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#intro{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11,11,11,.97);
+}
+
+#intro-content {
+  height: 100%;
+  width: 100%;
+  display: block;
+
+
+  position:absolute;
+  mix-blend-mode: difference;
+  color: white;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#rightback {
+  width:60%;
+  background-color: white;
+  position: absolute;
+
+  height: 100%;
+  z-index: 1;
+  transform: skewX(-10deg);
+  right: -10%;
+}
+
+
+#blackdeck, #whitedeck {
+  position: absolute;
+  z-index: 100;
+}
+
+#blackdeck {
+  left: -5%;
+  top:-5%;
+
+}
+
+#whitedeck {
+  right: -5%;
+  bottom: -7%;
+}
+
+#logo {
+  height: 100%;
+  width: 100%;
+  h1 {
+    font-family: @font-logo;
+    z-index: 100;
+    text-transform:uppercase;
+    font-size: 130px;
+    text-align: center;
+    font-weight: 700;
+    animation: bounceIn 2s;
+  }
+
+    img {
+      display:block;
+      margin:auto;
+      width: 50px;
+      height: auto;
+      animation: bottom 2s infinite;
+    }
+
+}
+
+
+
+
+/*retoric*/
+#retoric{
+  background-color: rgba(21,21,21,.9);
+}
+#ret-content{
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ret-text {
+  text-align: center;
+}
+
+#choice {
+  font-size: 30px;
+  font-family: @font-title;
+  }
+
+/*expandable*/
+#exp-content {
+  height:400px;
+}
+
+#exp-text{
+  position: absolute;
+  float: left;
+  width: 30%;
+  left: 15%;
+  text-align: center;
+}
+
+#exp-deck{
+  float: right;
+  width: 50%;
+  overflow: hidden;
+  height:400px;
+}
+
+/*resources*/
+#resources, footer {
+  background-color: rgba(21,21,21,.9);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+#res-content {
+  z-index: -100;
+
+}
+
+#res-deck{
+  float: left;
+  width: 50%;
+}
+
+#res-text{
+  position: absolute;
+  float: right;
+  right: 10%;
+  width: 40%;
+  text-align: center;
+}
+
+/*redeem*/
+#redeem{
+}
+#red-content{
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+/*footer*/
+footer{
+
+  padding: 5px;
+  text-align: center;
+  a {
+    color: #eee;
+  }
+  a:hover {
+    color: #ccc;;
+  }
+}
+
+
+/*BUTTON JOIN US*/
+.btn {
+  background: #000000;
+  background-image: linear-gradient(top, #000000, #575e63);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: @font-title;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #474647;
+  background-image: linear-gradient(to bottom, #474647, #616061);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/* animation title*/
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#intro-content, #intro-parts, #logo, #logo h1 {
+  width: 100%;
+}
+
+#text {
+  height: 30px;
+  width: 400px;
+}
+
+
+@keyframes bottom {0%,100% {transform:translate(20px,0px)}50%{transform:translate(20px,-15px)}}
