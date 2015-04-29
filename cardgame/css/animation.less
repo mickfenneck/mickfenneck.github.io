@@ -1,0 +1,29 @@
+@keyframes combat {
+  0%,10% {
+    width:60%
+  }
+  15%,30% {
+    width:70%
+  }
+  35%,50% {
+    width:57%
+  }
+  55%,70% {
+    width:51%
+  }
+  75%,90% {
+    width:69%
+  }
+  95%,100% {
+    width: 60%
+  }
+}
+
+#rightback {
+  z-index: 1;
+  animation-name: combat;
+  animation-duration: 20s;
+  animation-timing-function: cubic-bezier(.42,.07,0,.08);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
