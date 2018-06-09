@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>mickfenneck.com &#126; communication, webdesign, development, photography</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="mickfenneck.com: communication, webdesign, development, photography">
+    <meta name="keywords" content="communication, webdesign, development, photography, frontend">
+    <meta name="author" content="MickFenneck, Michele Sordo">
+
+    <!--OpenGraph Protocol-->
+    <meta property="og:title" content="mickfenneck.com: communication, webdesign, development, photography" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://mickfenneck.github.io" />
+    <meta property="og:image" content="http://mickfenneck.github.io/img/profile.jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:description" content="Hi! I'm an Italian photographer, developer, musician & student of ComputerScience @UniTn. I love technology, graphic design, programming, numbers, networks, algorithms, data and many other things!" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="it_IT" />
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+
+      <!--Scripts-->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!--Bootstrap-->
+    <script src="./js/bootstrap.min.js"></script>
+    <!--Pace page loader-->
+    <script type="text/javascript" src="./js/pace2.js"></script>
+
+    <!--Style -->
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Main Style-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--Worked with-->
+    <link rel="stylesheet" type="text/css" href="./css/worked.css">
+    <!--Pace page loader-->
+    <link rel="stylesheet" type="text/css" href="./css/pace.css">
+
+
+    <!--Google Analytics-->
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44087415-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <!--Arrow animation-->
+    <script>
+        $(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+    </script>
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="chromeframe">You are using an
+    <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/">upgrade your browser</a> or
+    <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+</p>
+<![endif]-->
+<div id="loading"></div>    
+    
+<!--menu navbar-->
+<nav id="menu-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#intro">MickFenneck.com</a>
+	    </div>
+        <!--navbar-->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#aboutme" title="about me">about me</a></li>
+                <li><a href="#things" title="communication">communication</a></li>
+                <li><a href="#webdesign" title="webdesign">webdesign</a></li>
+                <li><a href="#development" title="development">development</a></li>
+                <li><a href="#photography" title="photography">photography</a></li>
+                <!--<li><a href="#blog" title="blog">blog</a></li>-->
+                <li><a href="#workedwith" title="workedwith">worked with</a></li>
+                <li><a href="#contact" title="contact">contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./it/index.html" title="italiano">IT</a></li>
+                <li><a href="./index.html" title="english">EN</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>    
+    
+<article id="intro">
+    <div id="introtesto" class="row text-center">        
+        <div class="col-md-12">
+            <h1 id="logotitle">MickFenneck<span class="apice">&copy;</span></h1>
+            <h2>photographer - developer - webdesigner</h2>
+        </div>
+    </div>
+    <div class="arrow">
+        <a href="#aboutme">
+            <img src="img/arrow.png" alt="arrow"/>
+        </a>
+    </div>
+</article>   
+
+<article id="aboutme">
+    <div  id="abouttesto" class="row text-center">
+        <div>
+            <h1>About me</h1>
+            <div id="about1" class="col-md-4 col-md-offset-2">
+                <p>
+                    Hi! I'm an Italian photographer, developer, musician & student of ComputerScience @UniTn.
+I love technology, graphic design, programming, numbers, networks, algorithms, data and many other things!
+I'm a dreamer interested in everything and in the future I would like to launch an ICT startup.
+                </p>
+            </div>
+            <div id="about2" class="col-md-4">
+                <p>
+                    I love photography and art in general: my aim is to describe and document life through my personal point of view (and through the lens of my camera).
+I'm a guitarist for passion, reader for my knowledge addiction and sometimes writer for hobby (blog coming soon, I don’t have the time for all that code at the moment!).
+                </p>
+            </div>
+        </div>          
+    </div>
+</article>  
+    
+<article id="things">
+    <div id="thingstesto" class="row text-center">
+        <div  class="col-md-10 col-md-offset-1">
+            <h1>communication</h1>
+            <p>
+                I love the beauty and I insatiably look for it in people and things.<br/>
+When it comes to branding, communication is everything: without the right image there is a risk that the product would not feel so attractive and would not live up to expectations.<br/>
+                For a couple of months I've been studying new communication techniques, business/management and economy/finance.<br/>
+                Thanks to many collaborations I'm experimenting branding models that gather creativity, graphic design, marketing (especially web) and search engine optimization for offering cutting edge products
+            </p>
+        </div>
+    </div>
+</article>
+
+<article id="webdesign">
+    <div id="webtesto" class="row text-center">
+        <div  class="col-md-10 col-md-offset-1">
+            <h1>WebDesign</h1>
+            <p>
+                I work essentially on the web. <br />
+                I deal with front-end, developing websites with clear, clean and accessible contents. I prefer flat-design and open spaces.
+            </p>       
+        </div>
+    </div>
+</article>
+
+<article id="development">
+    <div id="devtesto" class="row text-center">
+        <div  class="col-md-10 col-md-offset-1">
+            <h1>development</h1>
+            <p>
+                I’m studying computer science and so I also develop different applications. <br />
+                The programming languages I prefer are python and javascript. I love opensource and I try to release all my code on public license(es), with github.
+            </p>
+            <a class="link" href="https://www.github.com/mickfenneck">-GitHub-</a>
+                  
+        </div>
+    </div>
+</article>
+
+<article id="photography">
+    <div id="phototesto" class="row text-center">
+        <div class="col-md-10 col-md-offset-1">
+            <h1>photography &amp; Reportage</h1>
+            <p> 
+                I love photography, it has always fascinated me since I was at middle school. <br />
+                I try to capture instants, emotions and daily life. I upload the most interesting shots on flickr.
+
+            </p>
+            <a class="link" href="http://www.flickr.com/photos/mickfenneck/">-Flickr-</a><br />
+            <a class="link newpost" href="http://www.flickr.com/photos/mickfenneck/sets/72157641452597544/"><strong>New reportage from Palestine-Israel!</strong></a>
+        </div>
+    </div>
+</article>
+<!--    
+<article id="blog">
+    <div id="blogtesto" class="row text-center">
+        <div class="col-md-10 col-md-offset-1">
+            <h1>Blog</h1>
+            <a class="link" href="#">-coming soon-</a>
+        </div>
+    </div>
+</article>
+-->
+<article id="workedwith">
+    <div id="workedtesto" class="row text-center">
+        <div class="col-md-10 col-md-offset-1">
+            <h1>Worked With</h1>
+        </div>
+        <div class="row text-center">
+            <div id="workcontainer">
+                <div class="col-md-3">
+                    <div class="view view-first">
+                        <img class ="workimage" src="img/bold.png" />
+                        <div class="mask">
+                            <h2><a class="brand" href="http://www.studiobold.it">Bold Design</a></h2>
+                            <p>graphic &amp; design.</p>
+                            <a href="http://www.studiobold.it" class="info">Read More</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-3">
+                    <div class="view view-first">
+                        <img class ="workimage" src="img/esseq.png" />
+                        <div class="mask">
+                            <h2><a class="brand" href="http://essequadro.daportfolio.com">EsseQuadro</a></h2>
+                            <p>design for bands.</p>
+                            <a href="http://essequadro.daportfolio.com" class="info">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="view view-first">
+                        <img class ="workimage" src="img/geopartner.png" />
+                        <div class="mask">
+                            <h2><a class="brand" href="http://www.geopartner.it">Geopartner</a></h2>
+                            <p>software.</p>
+                            <a href="http://www.geopartner.it" class="info">Read More</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-3">
+                    <div class="view view-first">
+                        <img class ="workimage" src="img/alebazza.png" />
+                        <div class="mask">
+                            <h2><a class="brand" href="http://www.alessiobazzanella.com">AlessioBazzanella</a></h2>
+                            <p>Photographer &amp; webdesigner</p>
+                            <a href="http://www.alessiobazzanella.com" class="info">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<article id="contact">
+    <div id="contacttesto"class="row text-center">
+        <div class="col-md-12">
+            <h1>Contact</h1>
+        </div>
+        <div class="col-md-2 col-md-offset-3">
+            <a class="link" href="https://twitter.com/MickFenneck">Twitter</a>
+        </div>
+        <div class="col-md-2">
+            <a class="link" href="http://www.linkedin.com/profile/view?id=242402733">LinkedIn</a>
+        </div>
+        <div class="col-md-2">
+            <a class="link" href="https://www.facebook.com/mickfenneck">Facebook</a>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <address>
+                <h3><strong>Work email</strong><br></h3>
+                <a class="link email" href="mailto:info@mickfenneck.com">info@mickfenneck.com</a>
+            </address>
+        </div>
+    </div>
+</article>
+
+<footer>
+    <div id="footer" class="row text-center">
+        <div class="col-md-12">
+            <p>copyright &copy; 2013 mickfenneck.com &#126; language: <a href="./index.html" title="english">english</a> <a href="./it/index.html" title="italiano">italiano</a></p>
+        </div>
+    </div>
+</footer> 
+</body>
+</html>
+
